@@ -69,6 +69,7 @@ resource "aws_security_group" "http_access" {
 # Creating Ec2 Instance
 # -----------------------------------------------------
 
+
 resource "aws_instance" "frontend" {
 
   ami           = data.aws_ami.latest.id
